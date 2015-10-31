@@ -1,1 +1,152 @@
+body {
+	background: #f9f9f9;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
 
+.wrapper {
+	border: -webkit-box-shadow: 0px 0px 3px 1px rgba(199,199,199,1);
+			-moz-box-shadow: 0px 0px 3px 1px rgba(199,199,199,1);
+			box-shadow: 0px 0px 3px 1px rgba(199,199,199,1);
+	margin: 0 auto;
+	width: 1061px;
+	min-height: 956px;
+	background: #ffffff;
+}
+
+.logo {
+	padding: 50px 0 0 47px;
+}
+
+.menu li {
+	display: inline;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.menu {
+	margin: 40px 47px 0 47px;
+	background: linear-gradient(to top, #444343, #5d5d5d);
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	padding: 0 40px;
+	display: inline-block;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.menu ul {
+	font-size: 0;
+	line-height: 0;
+}
+
+.menu li a:hover {
+	background: linear-gradient(to top, #2e2e2e, #5d5d5d);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+ .content {
+	margin: 40px 47px 0 47px;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.nav {
+	border: 1px solid #c8c8c8;
+	width: 239px;
+	float: left;
+}
+
+.nav li {
+	line-height: 40px;
+	border-bottom: 1px solid #c8c8c8;
+	width: 239px;
+	height: 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	padding-left: 24px;
+	color: #656363;
+	font-size: 13px;
+	background: #ffffff;
+	display: block;
+}
+
+.nav li:last-child {
+	border-bottom-style: none;
+}
+
+.nav a:hover {
+	background: #f9f9f9;
+	color: #2c2c2c;
+	padding-left: 35px;
+}
+
+.test6:link {
+	background: #f9f9f9;
+	color: #2c2c2c;
+	padding-left: 35px;
+}
+
+.pic_text {
+	width: 677px;
+	float: right;
+}
+
+.pic {
+	width: 500px;
+	height: 307px;
+	border: 1px solid #c8c8c8;
+	padding: 48px 87px 45px 90px;
+}
+
+.text {
+	margin: 40px 28px 0 24px;
+	font-size: 13px;
+	color: #2c2c2c;
+	line-height: 22px;
+}
+
+.footer {
+	background: #e1e1e1;
+	margin: 50px 47px 0 47px;
+	line-height: 40px;
+	
+}
+
+.footer li {
+	float: left;
+	font-size: 13px;
+	margin: 0 30px;
+}
+
+.footer ul {
+	float: left;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #2c2c2c; 
+} 
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.copy {
+	float: right;
+	font-size: 13px;
+	margin-right: 23px;
+}
+
+.test7:link {
+	text-decoration: underline;
+}
