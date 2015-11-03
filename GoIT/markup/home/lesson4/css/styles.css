@@ -1,0 +1,197 @@
+
+
+body {
+	background-color: #0c739f;
+	background-image: url(../img/bg.jpg) ;
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+.wrapper{
+	border-bottom: 2px solid black;
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    
+    width: 1000px;
+}
+
+.head {
+	 
+	background: #ffffff;
+    height: 177px;
+    width: 1000px;
+}
+
+.logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.contacts{
+ color: #41a1b9;
+ float: right;
+ padding-top: 5px;
+ padding-right: 30px;
+ font-family: Tahoma,Arial,sans-serif;
+ font-size: 12px;
+
+}
+.contacts p{
+ color: #41a1b9;
+ line-height: 16px;
+}
+.contacts .select{
+ font-weight: 600;
+}
+
+.contacts a{
+	text-decoration: none;
+  color: #41a1b9;
+  
+}
+
+.countries{
+  float: right;
+  padding-right: 25px;
+  margin-top: 37px;
+  clear: right;
+  font-family: Tahoma,Arial,sans-serif;
+ font-size: 12px;
+  
+}
+
+.countries li{
+  width: 60px;
+  float:left;
+  font-size: 10px;
+  text-align: center;
+ }
+
+.countries li span {
+  color: #41a1b9;
+  text-align: center;
+}
+
+.photo{
+  height: 236px;
+}
+
+
+
+.menu {
+	padding-left: 30px;
+	background-color: #303030;
+	font-size: 14px;
+	border-top: 1px solid #cacbcb;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.9);
+	position: relative; /* for shadow visibility */
+}
+
+.menu li {
+	float: left; 
+	display: block;
+	position: relative; 
+}
+
+.menu li a {
+	display: block;
+	padding: 0 32px;
+	line-height: 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+}
+
+.sub_menu {
+	display: none;
+	position: absolute; 
+	left: 22px;
+	top: 28px; 
+	width: 100%;
+	background-color: #303030;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.9);
+}
+
+.sub_menu li {
+	float: none;
+}
+.sub_menu li a {
+	padding: 0 10px 5px 10px;
+	line-height: 24px;
+}
+
+.sub_menu li:first-child a {
+	border-top: 1px solid #000; 
+}
+
+.menu li:hover .sub_menu {
+	display: block;
+}
+
+
+.main{
+
+	font-size: 14px;
+	color: #424c43;
+	background:url(../img/content.png);
+	font-family: Tahoma, Arial, sans-serif;
+	text-align: center;
+
+}
+.main h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.leftcolumn{
+	
+	width: 210px;
+	
+float: left;
+
+
+
+}
+.centercolumn{
+ 
+    margin: 0 auto;
+  
+    width: 578px;
+
+}
+
+
+.rightcolumn{
+	
+width: 210px;
+float: right;
+
+
+
+}
+
+
+.footer{
+	
+    color: #cee3ec;
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.clearfix :after {
+ content:'';
+ clear: both;
+ display: block;
+}
+
+
+
+
+
