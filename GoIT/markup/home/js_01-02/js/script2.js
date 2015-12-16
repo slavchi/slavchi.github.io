@@ -1,15 +1,27 @@
-function main(){
-		var numberOfPeople = 5;
-		var arrayHumans = [];
-		var user;
-		var presence = false;
-		for(var i = 1; i < numberOfPeople+1; ++i)
-			arrayHumans[i] = prompt('Введите имя '+i+'-го человека');
-		user = prompt('Введите имя пользователя');
-		for(var i = 0; i < numberOfPeople; ++i)
-			if(arrayHumans[i] === user)
-				presence = true;
-		presence ? alert(user + ", вы успешно вошли") : alert("Такого имени нет!");
-		return 0;
-	}
-	main();
+var enterNames = [];
+
+for (var i = 1; i < 3; i++) {	
+	enterNames[i] = prompt('Введите имя '+i+'-го человека');
+		
+}
+
+
+
+var login = prompt('Введите имя пользователя: ');
+var result = findName(enterNames, login);
+
+if (!result) {
+  alert('Пользователь не найден!');
+} else {
+  alert(login + ', вы успешно вошли');
+} 
+
+function findName(enterNames, name) {
+  for (var i = enterNames.length - 1; i >= 0; i--) {
+    if (enterNames[i] == name) {
+      return name;
+    } else {
+      return null;
+    }
+  }
+}
